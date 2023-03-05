@@ -102,20 +102,20 @@ async def cbstart(_, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(text="❄ ʜᴇʟᴩ ❄", callback_data="cbbasic"),
-                    InlineKeyboardButton(text="🥀 ᴏᴡɴᴇʀ 🥀", user_id=F_OWNER),
+                    InlineKeyboardButton(text="🥀 ᴏᴡɴᴇʀ 🥀", user_id=@LUCIFER_IS_BOT),
                 ],
                 [
                     InlineKeyboardButton(
-                        text="✨ sᴜᴩᴩᴏʀᴛ ✨", url=f"https://t.me/{GROUP_SUPPORT}"
+                        text="✨ sᴜᴩᴩᴏʀᴛ ✨", url=f"https://t.me/{testing_group_banall}"
                     ),
                     InlineKeyboardButton(
-                        text="💘 ᴄʜᴀɴɴᴇʟ 💘", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        text="💘 ᴄʜᴀɴɴᴇʟ 💘", url=f"https://t.me/{lucifer_bots_support}"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
                         text="☁ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ☁",
-                        url="https://github.com/Abishnoi69/AsuXMusic",
+                        url="https://telegra.ph/file/880ee4a07990f74a16ba6.jpg",
                     )
                 ],
             ]
@@ -136,8 +136,6 @@ async def cbbasic(_, query: CallbackQuery):
 🤷 » /pause - ᴘᴀᴜsᴇ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴘʟᴀʏᴏᴜᴛ ᴏɴ ɢʀᴏᴜᴘ ᴄᴀʟʟ
 
 🤷 » /skip - ᴛᴏ sᴋɪᴘ ᴄᴜʀʀᴇɴᴛ sᴏɴɢ
-
-🤷 » /repo - ᴛᴏ ɢᴇᴛ ᴛʜᴇ ʀᴇᴘᴏ
 
 🙋 » /end - ᴛᴏ end ᴘʟᴀʏ sᴏɴɢ ɪɴ ᴠᴄ.""",
         reply_markup=InlineKeyboardMarkup(
